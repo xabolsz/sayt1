@@ -1,0 +1,31 @@
+main
+{
+    text-align: center;
+    height: 1000px;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(173, 173, 173);
+    padding: 5%;
+    flex-direction: column;
+}
+main a {
+    justify-content: center;
+    display: block;
+    align-items: center;
+    font-style: italic;
+    flex-direction: column;
+    padding: 5%;
+}
+.kak{
+    display: block;
+    flex-direction: column;
+}
+main img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+}
+    

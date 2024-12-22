@@ -1,0 +1,15 @@
+main {
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    flex-direction: column;
+    padding: 5%;
+}
+.hr {
+    background-color: aliceblue;
+    
+}
+main a {
+}
