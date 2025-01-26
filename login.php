@@ -11,15 +11,20 @@
 <body>
 
 <main>
-<a href="index.php"><img src="icon1.png" alt="img"></a>
+<a href="index.php"><img src="home.png" alt="img"></a>
 
-<form action="/login" method="POST" class="kak">
-<INPut type="text" name="uesername" placeholder="نام کاربری" required>
-<INPut type="password" name="password" placeholder="رمز عبور" required>
-<button type="submit">ورود</button>
-
-<a href="signup.php"><h3>ثبت نام</h3></a>
-
+<form action="test.php" method="POST" class="kak">
+<INPut type="text" name="user" placeholder="نام کاربری" required="vorood">
+<hr>
+<INPut type="text" name="pass" placeholder="رمز عبور" required="vorood">
+<hr>
+<button type="submit" name="vorood">ورود</button>
+<hr>
+<hr>
+</form>
+<form action="singup.php" method="POST">
+    <input type="submit" name="ثبت نام" value="ثبت نام">
+</form>
 </main>
 
 <link rel="stylesheet" href="bootstrap.js">
